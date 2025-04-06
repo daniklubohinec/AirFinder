@@ -1,0 +1,617 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		93F547C92D3159E7002FCB38 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93F547C82D3159E7002FCB38 /* Assets.xcassets */; };
+		93F547CD2D3159E7002FCB38 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93F547CC2D3159E7002FCB38 /* Preview Assets.xcassets */; };
+		93F547D52D315DEB002FCB38 /* Adapty in Frameworks */ = {isa = PBXBuildFile; productRef = 93F547D42D315DEB002FCB38 /* Adapty */; };
+		93F547D82D315E0E002FCB38 /* Defaults in Frameworks */ = {isa = PBXBuildFile; productRef = 93F547D72D315E0E002FCB38 /* Defaults */; };
+		93F547DB2D315E3D002FCB38 /* Dependiject in Frameworks */ = {isa = PBXBuildFile; productRef = 93F547DA2D315E3D002FCB38 /* Dependiject */; };
+		93F547DE2D315E66002FCB38 /* KeychainAccess in Frameworks */ = {isa = PBXBuildFile; productRef = 93F547DD2D315E66002FCB38 /* KeychainAccess */; };
+		93F547E12D315E95002FCB38 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 93F547E02D315E95002FCB38 /* Lottie */; };
+		93F547E42D315EC7002FCB38 /* NavigationBackport in Frameworks */ = {isa = PBXBuildFile; productRef = 93F547E32D315EC7002FCB38 /* NavigationBackport */; };
+		93F547E72D315EF6002FCB38 /* Pow in Frameworks */ = {isa = PBXBuildFile; productRef = 93F547E62D315EF6002FCB38 /* Pow */; };
+		93F548022D316F80002FCB38 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F547E92D316F73002FCB38 /* WelcomeView.swift */; };
+		93F548032D316F81002FCB38 /* UserGuidePaywallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F547EA2D316F73002FCB38 /* UserGuidePaywallView.swift */; };
+		93F548042D316F81002FCB38 /* ApplicationSetupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F547EB2D316F73002FCB38 /* ApplicationSetupView.swift */; };
+		93F548052D316F81002FCB38 /* Sora-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 93F547EC2D316F74002FCB38 /* Sora-ExtraBold.ttf */; };
+		93F548062D316F81002FCB38 /* AirTrackerAppStructure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F547ED2D316F74002FCB38 /* AirTrackerAppStructure.swift */; };
+		93F548072D316F81002FCB38 /* aritagTracker.json in Resources */ = {isa = PBXBuildFile; fileRef = 93F547EE2D316F74002FCB38 /* aritagTracker.json */; };
+		93F548082D316F81002FCB38 /* UserMapViewProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F547EF2D316F75002FCB38 /* UserMapViewProvider.swift */; };
+		93F548092D316F81002FCB38 /* AirTrackerServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F547F02D316F75002FCB38 /* AirTrackerServices.swift */; };
+		93F5480A2D316F81002FCB38 /* ExtensionInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F547F12D316F76002FCB38 /* ExtensionInterface.swift */; };
+		93F5480B2D316F81002FCB38 /* AppProviderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F547F22D316F76002FCB38 /* AppProviderView.swift */; };
+		93F5480C2D316F81002FCB38 /* AppNavScreensView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F547F32D316F76002FCB38 /* AppNavScreensView.swift */; };
+		93F5480D2D316F81002FCB38 /* Sora-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 93F547F42D316F77002FCB38 /* Sora-ExtraLight.ttf */; };
+		93F5480E2D316F81002FCB38 /* AirTrackerModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F547F52D316F77002FCB38 /* AirTrackerModels.swift */; };
+		93F5480F2D316F81002FCB38 /* UIPaywallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F547F62D316F78002FCB38 /* UIPaywallView.swift */; };
+		93F548102D316F81002FCB38 /* UserFavouriteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F547F72D316F79002FCB38 /* UserFavouriteView.swift */; };
+		93F548112D316F81002FCB38 /* Sora-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 93F547F82D316F79002FCB38 /* Sora-Bold.ttf */; };
+		93F548122D316F81002FCB38 /* Sora-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 93F547F92D316F7A002FCB38 /* Sora-Light.ttf */; };
+		93F548132D316F81002FCB38 /* BluetoothSearchingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F547FA2D316F7B002FCB38 /* BluetoothSearchingView.swift */; };
+		93F548142D316F81002FCB38 /* AirTrackerPurchasesStructure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F547FB2D316F7C002FCB38 /* AirTrackerPurchasesStructure.swift */; };
+		93F548152D316F81002FCB38 /* Sora-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 93F547FC2D316F7F002FCB38 /* Sora-Regular.ttf */; };
+		93F548162D316F81002FCB38 /* CustomLottieAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F547FD2D316F7F002FCB38 /* CustomLottieAnimationView.swift */; };
+		93F548172D316F81002FCB38 /* Sora-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 93F547FE2D316F80002FCB38 /* Sora-Medium.ttf */; };
+		93F548182D316F81002FCB38 /* Sora-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 93F547FF2D316F80002FCB38 /* Sora-Thin.ttf */; };
+		93F548192D316F81002FCB38 /* ScanningUserDeviceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F548002D316F80002FCB38 /* ScanningUserDeviceView.swift */; };
+		93F5481A2D316F81002FCB38 /* Sora-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 93F548012D316F80002FCB38 /* Sora-SemiBold.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		93F547C12D3159E3002FCB38 /* AirTag Tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AirTag Tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		93F547C82D3159E7002FCB38 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		93F547CA2D3159E7002FCB38 /* AirTag_Tracker.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AirTag_Tracker.entitlements; sourceTree = "<group>"; };
+		93F547CC2D3159E7002FCB38 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		93F547E82D316F71002FCB38 /* AirTag Tracker-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AirTag Tracker-Bridging-Header.h"; sourceTree = "<group>"; };
+		93F547E92D316F73002FCB38 /* WelcomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		93F547EA2D316F73002FCB38 /* UserGuidePaywallView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserGuidePaywallView.swift; sourceTree = "<group>"; };
+		93F547EB2D316F73002FCB38 /* ApplicationSetupView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApplicationSetupView.swift; sourceTree = "<group>"; };
+		93F547EC2D316F74002FCB38 /* Sora-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Sora-ExtraBold.ttf"; sourceTree = "<group>"; };
+		93F547ED2D316F74002FCB38 /* AirTrackerAppStructure.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AirTrackerAppStructure.swift; sourceTree = "<group>"; };
+		93F547EE2D316F74002FCB38 /* aritagTracker.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = aritagTracker.json; sourceTree = "<group>"; };
+		93F547EF2D316F75002FCB38 /* UserMapViewProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserMapViewProvider.swift; sourceTree = "<group>"; };
+		93F547F02D316F75002FCB38 /* AirTrackerServices.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AirTrackerServices.swift; sourceTree = "<group>"; };
+		93F547F12D316F76002FCB38 /* ExtensionInterface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExtensionInterface.swift; sourceTree = "<group>"; };
+		93F547F22D316F76002FCB38 /* AppProviderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppProviderView.swift; sourceTree = "<group>"; };
+		93F547F32D316F76002FCB38 /* AppNavScreensView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppNavScreensView.swift; sourceTree = "<group>"; };
+		93F547F42D316F77002FCB38 /* Sora-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Sora-ExtraLight.ttf"; sourceTree = "<group>"; };
+		93F547F52D316F77002FCB38 /* AirTrackerModels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AirTrackerModels.swift; sourceTree = "<group>"; };
+		93F547F62D316F78002FCB38 /* UIPaywallView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIPaywallView.swift; sourceTree = "<group>"; };
+		93F547F72D316F79002FCB38 /* UserFavouriteView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserFavouriteView.swift; sourceTree = "<group>"; };
+		93F547F82D316F79002FCB38 /* Sora-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Sora-Bold.ttf"; sourceTree = "<group>"; };
+		93F547F92D316F7A002FCB38 /* Sora-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Sora-Light.ttf"; sourceTree = "<group>"; };
+		93F547FA2D316F7B002FCB38 /* BluetoothSearchingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BluetoothSearchingView.swift; sourceTree = "<group>"; };
+		93F547FB2D316F7C002FCB38 /* AirTrackerPurchasesStructure.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AirTrackerPurchasesStructure.swift; sourceTree = "<group>"; };
+		93F547FC2D316F7F002FCB38 /* Sora-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Sora-Regular.ttf"; sourceTree = "<group>"; };
+		93F547FD2D316F7F002FCB38 /* CustomLottieAnimationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomLottieAnimationView.swift; sourceTree = "<group>"; };
+		93F547FE2D316F80002FCB38 /* Sora-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Sora-Medium.ttf"; sourceTree = "<group>"; };
+		93F547FF2D316F80002FCB38 /* Sora-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Sora-Thin.ttf"; sourceTree = "<group>"; };
+		93F548002D316F80002FCB38 /* ScanningUserDeviceView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScanningUserDeviceView.swift; sourceTree = "<group>"; };
+		93F548012D316F80002FCB38 /* Sora-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Sora-SemiBold.ttf"; sourceTree = "<group>"; };
+		93F5481B2D316FCC002FCB38 /* AirTag-Tracker-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "AirTag-Tracker-Info.plist"; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		93F547BE2D3159E3002FCB38 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93F547E12D315E95002FCB38 /* Lottie in Frameworks */,
+				93F547E72D315EF6002FCB38 /* Pow in Frameworks */,
+				93F547DE2D315E66002FCB38 /* KeychainAccess in Frameworks */,
+				93F547E42D315EC7002FCB38 /* NavigationBackport in Frameworks */,
+				93F547D82D315E0E002FCB38 /* Defaults in Frameworks */,
+				93F547DB2D315E3D002FCB38 /* Dependiject in Frameworks */,
+				93F547D52D315DEB002FCB38 /* Adapty in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		93F547B82D3159E3002FCB38 = {
+			isa = PBXGroup;
+			children = (
+				93F547C32D3159E3002FCB38 /* AirTag Tracker */,
+				93F547C22D3159E3002FCB38 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		93F547C22D3159E3002FCB38 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				93F547C12D3159E3002FCB38 /* AirTag Tracker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		93F547C32D3159E3002FCB38 /* AirTag Tracker */ = {
+			isa = PBXGroup;
+			children = (
+				93F5481B2D316FCC002FCB38 /* AirTag-Tracker-Info.plist */,
+				93F547ED2D316F74002FCB38 /* AirTrackerAppStructure.swift */,
+				93F547F52D316F77002FCB38 /* AirTrackerModels.swift */,
+				93F547FB2D316F7C002FCB38 /* AirTrackerPurchasesStructure.swift */,
+				93F547F02D316F75002FCB38 /* AirTrackerServices.swift */,
+				93F547EB2D316F73002FCB38 /* ApplicationSetupView.swift */,
+				93F547F32D316F76002FCB38 /* AppNavScreensView.swift */,
+				93F547F22D316F76002FCB38 /* AppProviderView.swift */,
+				93F547EE2D316F74002FCB38 /* aritagTracker.json */,
+				93F547FA2D316F7B002FCB38 /* BluetoothSearchingView.swift */,
+				93F547FD2D316F7F002FCB38 /* CustomLottieAnimationView.swift */,
+				93F547F12D316F76002FCB38 /* ExtensionInterface.swift */,
+				93F548002D316F80002FCB38 /* ScanningUserDeviceView.swift */,
+				93F547F82D316F79002FCB38 /* Sora-Bold.ttf */,
+				93F547EC2D316F74002FCB38 /* Sora-ExtraBold.ttf */,
+				93F547F42D316F77002FCB38 /* Sora-ExtraLight.ttf */,
+				93F547F92D316F7A002FCB38 /* Sora-Light.ttf */,
+				93F547FE2D316F80002FCB38 /* Sora-Medium.ttf */,
+				93F547FC2D316F7F002FCB38 /* Sora-Regular.ttf */,
+				93F548012D316F80002FCB38 /* Sora-SemiBold.ttf */,
+				93F547FF2D316F80002FCB38 /* Sora-Thin.ttf */,
+				93F547F62D316F78002FCB38 /* UIPaywallView.swift */,
+				93F547F72D316F79002FCB38 /* UserFavouriteView.swift */,
+				93F547EA2D316F73002FCB38 /* UserGuidePaywallView.swift */,
+				93F547EF2D316F75002FCB38 /* UserMapViewProvider.swift */,
+				93F547E92D316F73002FCB38 /* WelcomeView.swift */,
+				93F547C82D3159E7002FCB38 /* Assets.xcassets */,
+				93F547CA2D3159E7002FCB38 /* AirTag_Tracker.entitlements */,
+				93F547CB2D3159E7002FCB38 /* Preview Content */,
+				93F547E82D316F71002FCB38 /* AirTag Tracker-Bridging-Header.h */,
+			);
+			path = "AirTag Tracker";
+			sourceTree = "<group>";
+		};
+		93F547CB2D3159E7002FCB38 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				93F547CC2D3159E7002FCB38 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		93F547C02D3159E3002FCB38 /* AirTag Tracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93F547D02D3159E7002FCB38 /* Build configuration list for PBXNativeTarget "AirTag Tracker" */;
+			buildPhases = (
+				93F547BD2D3159E3002FCB38 /* Sources */,
+				93F547BE2D3159E3002FCB38 /* Frameworks */,
+				93F547BF2D3159E3002FCB38 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AirTag Tracker";
+			packageProductDependencies = (
+				93F547D42D315DEB002FCB38 /* Adapty */,
+				93F547D72D315E0E002FCB38 /* Defaults */,
+				93F547DA2D315E3D002FCB38 /* Dependiject */,
+				93F547DD2D315E66002FCB38 /* KeychainAccess */,
+				93F547E02D315E95002FCB38 /* Lottie */,
+				93F547E32D315EC7002FCB38 /* NavigationBackport */,
+				93F547E62D315EF6002FCB38 /* Pow */,
+			);
+			productName = "AirTag Tracker";
+			productReference = 93F547C12D3159E3002FCB38 /* AirTag Tracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		93F547B92D3159E3002FCB38 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					93F547C02D3159E3002FCB38 = {
+						CreatedOnToolsVersion = 15.4;
+						LastSwiftMigration = 1540;
+					};
+				};
+			};
+			buildConfigurationList = 93F547BC2D3159E3002FCB38 /* Build configuration list for PBXProject "AirTag Tracker" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 93F547B82D3159E3002FCB38;
+			packageReferences = (
+				93F547D32D315DEB002FCB38 /* XCRemoteSwiftPackageReference "AdaptySDK-iOS" */,
+				93F547D62D315E0E002FCB38 /* XCRemoteSwiftPackageReference "Defaults" */,
+				93F547D92D315E3D002FCB38 /* XCRemoteSwiftPackageReference "Dependiject" */,
+				93F547DC2D315E66002FCB38 /* XCRemoteSwiftPackageReference "KeychainAccess" */,
+				93F547DF2D315E95002FCB38 /* XCRemoteSwiftPackageReference "lottie-spm" */,
+				93F547E22D315EC7002FCB38 /* XCRemoteSwiftPackageReference "NavigationBackport" */,
+				93F547E52D315EF6002FCB38 /* XCRemoteSwiftPackageReference "Pow" */,
+			);
+			productRefGroup = 93F547C22D3159E3002FCB38 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				93F547C02D3159E3002FCB38 /* AirTag Tracker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		93F547BF2D3159E3002FCB38 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93F548172D316F81002FCB38 /* Sora-Medium.ttf in Resources */,
+				93F5481A2D316F81002FCB38 /* Sora-SemiBold.ttf in Resources */,
+				93F548152D316F81002FCB38 /* Sora-Regular.ttf in Resources */,
+				93F547CD2D3159E7002FCB38 /* Preview Assets.xcassets in Resources */,
+				93F547C92D3159E7002FCB38 /* Assets.xcassets in Resources */,
+				93F548182D316F81002FCB38 /* Sora-Thin.ttf in Resources */,
+				93F548072D316F81002FCB38 /* aritagTracker.json in Resources */,
+				93F5480D2D316F81002FCB38 /* Sora-ExtraLight.ttf in Resources */,
+				93F548112D316F81002FCB38 /* Sora-Bold.ttf in Resources */,
+				93F548052D316F81002FCB38 /* Sora-ExtraBold.ttf in Resources */,
+				93F548122D316F81002FCB38 /* Sora-Light.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		93F547BD2D3159E3002FCB38 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93F548042D316F81002FCB38 /* ApplicationSetupView.swift in Sources */,
+				93F548102D316F81002FCB38 /* UserFavouriteView.swift in Sources */,
+				93F548192D316F81002FCB38 /* ScanningUserDeviceView.swift in Sources */,
+				93F548142D316F81002FCB38 /* AirTrackerPurchasesStructure.swift in Sources */,
+				93F548062D316F81002FCB38 /* AirTrackerAppStructure.swift in Sources */,
+				93F5480A2D316F81002FCB38 /* ExtensionInterface.swift in Sources */,
+				93F548162D316F81002FCB38 /* CustomLottieAnimationView.swift in Sources */,
+				93F5480F2D316F81002FCB38 /* UIPaywallView.swift in Sources */,
+				93F5480E2D316F81002FCB38 /* AirTrackerModels.swift in Sources */,
+				93F548022D316F80002FCB38 /* WelcomeView.swift in Sources */,
+				93F548082D316F81002FCB38 /* UserMapViewProvider.swift in Sources */,
+				93F548032D316F81002FCB38 /* UserGuidePaywallView.swift in Sources */,
+				93F548092D316F81002FCB38 /* AirTrackerServices.swift in Sources */,
+				93F5480C2D316F81002FCB38 /* AppNavScreensView.swift in Sources */,
+				93F548132D316F81002FCB38 /* BluetoothSearchingView.swift in Sources */,
+				93F5480B2D316F81002FCB38 /* AppProviderView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		93F547CE2D3159E7002FCB38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		93F547CF2D3159E7002FCB38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		93F547D12D3159E7002FCB38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "AirTag Tracker/AirTag_Tracker.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AirTag Tracker/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "AirTag-Tracker-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Air Tracker";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "We need Bluetooth access to locate and track nearby devices. Please enable Bluetooth to continue using the app's tracking features.";
+				INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription = "This also";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We need your location to store and retrieve the locations of your devices.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.3;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0.3;
+				PRODUCT_BUNDLE_IDENTIFIER = com.daniel.airtracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "AirTag Tracker/AirTag Tracker-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		93F547D22D3159E7002FCB38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "AirTag Tracker/AirTag_Tracker.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AirTag Tracker/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "AirTag-Tracker-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Air Tracker";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "We need Bluetooth access to locate and track nearby devices. Please enable Bluetooth to continue using the app's tracking features.";
+				INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription = "This also";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We need your location to store and retrieve the locations of your devices.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.3;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0.3;
+				PRODUCT_BUNDLE_IDENTIFIER = com.daniel.airtracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "AirTag Tracker/AirTag Tracker-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		93F547BC2D3159E3002FCB38 /* Build configuration list for PBXProject "AirTag Tracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93F547CE2D3159E7002FCB38 /* Debug */,
+				93F547CF2D3159E7002FCB38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93F547D02D3159E7002FCB38 /* Build configuration list for PBXNativeTarget "AirTag Tracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93F547D12D3159E7002FCB38 /* Debug */,
+				93F547D22D3159E7002FCB38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		93F547D32D315DEB002FCB38 /* XCRemoteSwiftPackageReference "AdaptySDK-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/adaptyteam/AdaptySDK-iOS.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.11.0;
+			};
+		};
+		93F547D62D315E0E002FCB38 /* XCRemoteSwiftPackageReference "Defaults" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/sindresorhus/Defaults";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.0.0;
+			};
+		};
+		93F547D92D315E3D002FCB38 /* XCRemoteSwiftPackageReference "Dependiject" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Tiny-Home-Consulting/Dependiject";
+			requirement = {
+				kind = exactVersion;
+				version = 1.0.0;
+			};
+		};
+		93F547DC2D315E66002FCB38 /* XCRemoteSwiftPackageReference "KeychainAccess" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/kishikawakatsumi/KeychainAccess";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		93F547DF2D315E95002FCB38 /* XCRemoteSwiftPackageReference "lottie-spm" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-spm.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.5.0;
+			};
+		};
+		93F547E22D315EC7002FCB38 /* XCRemoteSwiftPackageReference "NavigationBackport" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/johnpatrickmorgan/NavigationBackport";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.9.3;
+			};
+		};
+		93F547E52D315EF6002FCB38 /* XCRemoteSwiftPackageReference "Pow" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/EmergeTools/Pow";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.4;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		93F547D42D315DEB002FCB38 /* Adapty */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 93F547D32D315DEB002FCB38 /* XCRemoteSwiftPackageReference "AdaptySDK-iOS" */;
+			productName = Adapty;
+		};
+		93F547D72D315E0E002FCB38 /* Defaults */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 93F547D62D315E0E002FCB38 /* XCRemoteSwiftPackageReference "Defaults" */;
+			productName = Defaults;
+		};
+		93F547DA2D315E3D002FCB38 /* Dependiject */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 93F547D92D315E3D002FCB38 /* XCRemoteSwiftPackageReference "Dependiject" */;
+			productName = Dependiject;
+		};
+		93F547DD2D315E66002FCB38 /* KeychainAccess */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 93F547DC2D315E66002FCB38 /* XCRemoteSwiftPackageReference "KeychainAccess" */;
+			productName = KeychainAccess;
+		};
+		93F547E02D315E95002FCB38 /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 93F547DF2D315E95002FCB38 /* XCRemoteSwiftPackageReference "lottie-spm" */;
+			productName = Lottie;
+		};
+		93F547E32D315EC7002FCB38 /* NavigationBackport */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 93F547E22D315EC7002FCB38 /* XCRemoteSwiftPackageReference "NavigationBackport" */;
+			productName = NavigationBackport;
+		};
+		93F547E62D315EF6002FCB38 /* Pow */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 93F547E52D315EF6002FCB38 /* XCRemoteSwiftPackageReference "Pow" */;
+			productName = Pow;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 93F547B92D3159E3002FCB38 /* Project object */;
+}
